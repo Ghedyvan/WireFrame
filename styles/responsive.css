@@ -1,0 +1,144 @@
+@media(max-width: 1200px){
+    .s-hero .texto{
+        max-width: 49%;
+    }
+    .s-dark .all-cards{
+        width: 100%;
+    }
+    .s-dark .all-cards .card{
+        width: 100%;
+    }
+    .s-dark .images-group .images{
+        gap: 2rem 2%;
+        width: 23.5%;
+    }
+
+}
+@media(max-width: 1020px){
+    header nav{
+        display: none;
+    }
+    header .menu-mobile{
+        display: block;
+    }
+    .s-hero .container{
+        flex-direction: column;
+    }
+    .s-hero .texto{
+        max-width: 100%;
+        margin-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .s-hero .texto h1{
+        text-align: center;
+    }
+    .s-hero .texto p{
+        text-align: center;
+    }
+    .s-dark .all-cards{
+        flex-direction: column;
+    }
+    .s-dark .all-cards .card{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 3rem 0rem;
+        margin-bottom: 2rem;
+    }
+    .s-dark .card .card-text{
+        max-width: 90%;
+        margin-top: 2rem;
+    }
+    .s-dark .all-cards .card:last-child{
+        margin-bottom: 0;
+    }
+
+
+}
+@media(max-width: 768px){
+    .s-dark-2{
+        flex-direction: column;
+    }
+    .s-dark-2 button{
+        margin-top: 3rem;
+    }
+    .images-group{
+        flex-wrap: wrap !important;
+    }
+    .images-group .images{
+        flex-wrap: wrap !important;
+        width: 30% !important;
+    }
+    .images-group{
+        padding: 0 1.32rem;
+    }
+    .s-dark-3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .s-dark-3 .area-left {
+        padding-bottom: 4rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer .container{
+        padding: 0 4rem;
+    }
+}
+@media(max-width: 600px){
+    .s-dark{
+        padding: 8rem 0;
+    }
+    .s-dark .s-dark-2{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    footer .copy{
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer .copy .text{
+        text-align: center;
+    }
+    footer .copy .logo{
+        justify-content: center;
+        display: flex;
+        padding-top: 2rem;
+    }
+}
+@media(max-width: 480px){
+    html{
+        font-size: 55% !important;
+    }
+    header .logo{
+        max-width: 13rem;
+    }
+    .s-hero{
+        padding: 4rem 0px;
+    }
+    .s-hero .texto p{
+        text-align: center;
+        width: 40rem;
+        font-size: 2rem !important;
+    }
+    .s-hero .imagem{
+        width: 30rem;
+    }
+    .s-dark{
+        padding: 4rem 0;
+    }
+    .s-dark .s-dark-2{
+        padding: 4rem 1.5rem;
+    }
+    h1{
+        font-size: 4.2rem;
+    }
+    .s-hero .btn-primary{
+        margin-top: 3rem;
+    }
+
+}
+
